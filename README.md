@@ -23,21 +23,27 @@ Tokenize, remove stopwords, and apply stemming using the Porter Stemmer
 
 ### 2. Feature Extraction
 **TF-IDF**: Converts text data to numerical vectors using term frequency-inverse document frequency
+
 **CountVectorizer**: Converts text to numerical vectors based on term frequency
 
 ### 3. Models
 **Support Vector Machine (SVM)**: Default and tuned hyperparameters
+
 **Random Forest Classifier**: Default and tuned hyperparameters
 
 ## Training Details
 ### Hyperparameter Tuning
-**SVM**: Grid search over C values (0.1, 1, 10) and kernels (linear, rbf).
-**Random Forest**: Grid search over n_estimators (50, 100, 200), max_depth (10, 20, 30, None), and bootstrap (True, False).
+**SVM**: Grid search over C values (0.1, 1, 10) and kernels (linear, rbf)
+
+**Random Forest**: Grid search over n_estimators (50, 100, 200), max_depth (10, 20, 30, None), and bootstrap (True, False)
 
 ## Evaluation Metrics
 Accuracy: Proportion of correct predictions.
+
 Precision: Proportion of true positives among predicted positives.
+
 Recall: Proportion of true positives among actual positives.
+
 F1 Score: Harmonic mean of precision and recall.
 
 ## Results
