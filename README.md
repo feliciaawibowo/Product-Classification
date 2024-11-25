@@ -41,6 +41,7 @@ Recall: Proportion of true positives among actual positives.
 F1 Score: Harmonic mean of precision and recall.
 
 ## Results
+![image](https://github.com/user-attachments/assets/ddb88431-18ec-47ed-9fff-4bf03a8ac797)
 
 
 ## Conclusion
